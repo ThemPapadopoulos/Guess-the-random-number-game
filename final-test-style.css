@@ -1,0 +1,50 @@
+:root {
+  --btn-color: teal; /* χρώμα πλήκτρων */
+  --btn-text: whitesmoke; /* χρώμα κειμένου πλήκτρων */
+  --msg-win-color: rgb(0, 128, 32); /* χρώμα μηνύματος επιτυχίας */
+  --msg-wrong-color: crimson; /* χρώμα μηνύματος αποτυχίας */
+  --msg-text: floralwhite; /* χρώμα κειμένου μηνύματος */
+  --low-high-color: gray; /* χρώμα ιστορικού προσπαθειών */
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+header {
+  font-size: x-large;
+}
+button {
+  background-color: var(--btn-color);
+  color: var(--btn-text);
+  float: inline-start;
+  border-radius: 5px;
+  border: none;
+}
+
+#instructions {
+  margin: 20px;
+  text-align: justify;
+}
+#guess {
+  margin: 20px;
+}
+
+#message {
+  background-color: var(--msg-wrong-color);
+  text-align: center;
+  color: var(--msg-text);
+  font-size: x-large;
+}
+
+#lowHigh {
+  opacity: 0.8;
+  height: 30px;
+  font-size: medium;
+}
+
+#restart {
+  float: left;
+  margin-top: 1rem;
+}
+
